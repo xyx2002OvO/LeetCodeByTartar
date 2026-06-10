@@ -6,7 +6,7 @@
 |---|---:|---|---|---|---|---|
 | 2026-06-09 | 1 | 0002 Add Two Numbers [M][Done] | 0445 Add Two Numbers II [M][Done] | 已完成 | 87c81e7 | 链表加法先判断数字存储方向；carry 模板统一 2/445。 |
 | 2026-06-10 | 2 | 0019 Remove Nth Node From End of List [M][Done] | 0021 Merge Two Sorted Lists [E][Done] | 已完成 | ab18939 | dummy 处理头节点；fast/slow 找前驱；合并链表主循环和收尾拆分。 |
-| 2026-06-11 | 3 | 0206 Reverse Linked List [E] | 0092 Reverse Linked List II [M] | 待完成 |  |  |
+| 2026-06-11 | 3 | 0206 Reverse Linked List [E] | 0092 Reverse Linked List II [M] | 已完成 |  | 递归反转注意断尾；局部反转用 pre/cur/next 头插，循环 right-left 次。 |
 | 2026-06-12 | 4 | 0141 Linked List Cycle [E] | 0142 Linked List Cycle II [M] | 待完成 |  |  |
 | 2026-06-13 | 5 | 0160 Intersection of Two Linked Lists [E] | 0138 Copy List with Random Pointer [M] | 待完成 |  |  |
 | 2026-06-14 | 6 | 0234 Palindrome Linked List [E] | 0143 Reorder List [M] | 待完成 |  |  |
