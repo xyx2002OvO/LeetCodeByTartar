@@ -8,7 +8,7 @@
 | 2026-06-10 | 2 | 0019 Remove Nth Node From End of List [M][Done] | 0021 Merge Two Sorted Lists [E][Done] | 已完成 | ab18939 | dummy 处理头节点；fast/slow 找前驱；合并链表主循环和收尾拆分。 |
 | 2026-06-11 | 3 | 0206 Reverse Linked List [E] | 0092 Reverse Linked List II [M] | 已完成 |  | 递归反转注意断尾；局部反转可抽象为反转半开区间 [start,end)，end 思维能迁移到 K 组反转。 |
 | 2026-06-12 | 4 | 0141 Linked List Cycle [E] | 0142 Linked List Cycle II [M] | 已完成 |  | 10:35 开始，10:55 结束，用时 20 分钟；快慢指针判断环，相遇后用 a/b/c 距离关系定位入口。 |
-| 2026-06-13 | 5 | 0160 Intersection of Two Linked Lists [E] | 0138 Copy List with Random Pointer [M] | 待完成 |  |  |
+| 2026-06-13 | 5 | 0160 Intersection of Two Linked Lists [E] | 0138 Copy List with Random Pointer [M] | 已完成 |  | 10:26 开始；160 用虚拟路径 A+B/B+A，138 用 old->new 唯一映射和图拷贝思维。 |
 | 2026-06-14 | 6 | 0234 Palindrome Linked List [E] | 0143 Reorder List [M] | 待完成 |  |  |
 | 2026-06-15 | 7 | 0025 Reverse Nodes in k-Group [H] | 0061 Rotate List [M] | 待完成 |  |  |
 | 2026-06-16 | 8 | 0023 Merge k Sorted Lists [H] | 0148 Sort List [M] | 待完成 |  |  |
