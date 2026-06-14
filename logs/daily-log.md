@@ -2,95 +2,95 @@
 
 说明：记录以实际执行为准。计划变更时，题单和 log 同步调整。
 
-| 日期 | Day | 题目 1 | 题目 2 | 状态 | Commit | 复盘要点 |
+| 日期 | Day | 所属模块 | 题目 1 | 题目 2 | 状态 | 复盘要点 |
 |---|---:|---|---|---|---|---|
-| 2026-06-09 | 1 | 0002 Add Two Numbers [M][Done] | 0445 Add Two Numbers II [M][Done] | 已完成 | 87c81e7 | 链表加法先判断数字存储方向；carry 模板统一 2/445。 |
-| 2026-06-10 | 2 | 0019 Remove Nth Node From End of List [M][Done] | 0021 Merge Two Sorted Lists [E][Done] | 已完成 | ab18939 | dummy 处理头节点；fast/slow 找前驱；合并链表主循环和收尾拆分。 |
-| 2026-06-11 | 3 | 0206 Reverse Linked List [E] | 0092 Reverse Linked List II [M] | 已完成 |  | 递归反转注意断尾；局部反转可抽象为反转半开区间 [start,end)，end 思维能迁移到 K 组反转。 |
-| 2026-06-12 | 4 | 0141 Linked List Cycle [E] | 0142 Linked List Cycle II [M] | 已完成 |  | 10:35 开始，10:55 结束，用时 20 分钟；快慢指针判断环，相遇后用 a/b/c 距离关系定位入口。 |
-| 2026-06-13 | 5 | 0160 Intersection of Two Linked Lists [E] | 0138 Copy List with Random Pointer [M] | 已完成 |  | 10:26 开始；160 用虚拟路径 A+B/B+A，138 用 old->new 唯一映射和图拷贝思维。 |
-| 2026-06-14 | 6 | 0234 Palindrome Linked List [E] | 0143 Reorder List [M] | 已完成 |  | 234/143 共用找中点、断链、反转后半段；234 做比较，143 做交错合并。代码记录 10:50-11:06。 |
-| 2026-06-15 | 7 | 0025 Reverse Nodes in k-Group [H] | 0061 Rotate List [M] | 已完成 |  | 实刷 2026-06-14；61 关注 len-k 新尾，25 复用 92 头插反转；调试点是每组开始要重置 cur=newHead.next。 |
-| 2026-06-16 | 8 | 0023 Merge k Sorted Lists [H] | 0148 Sort List [M] | 待完成 |  |  |
-| 2026-06-17 | 9 | 0146 LRU Cache [M] | 0460 LFU Cache [H] | 待完成 |  |  |
-| 2026-06-18 | 10 | 0707 Design Linked List [M] | 0430 Flatten a Multilevel Doubly Linked List [M] | 待完成 |  |  |
-| 2026-06-19 | 11 | 0001 Two Sum [E] | 0049 Group Anagrams [M] | 待完成 |  |  |
-| 2026-06-20 | 12 | 0347 Top K Frequent Elements [M] | 0692 Top K Frequent Words [M] | 待完成 |  |  |
-| 2026-06-21 | 13 | 0560 Subarray Sum Equals K [M] | 0523 Continuous Subarray Sum [M] | 待完成 |  |  |
-| 2026-06-22 | 14 | 0304 Range Sum Query 2D - Immutable [M] | 1109 Corporate Flight Bookings [M] | 待完成 |  |  |
-| 2026-06-23 | 15 | 0041 First Missing Positive [H] | 0448 Find All Numbers Disappeared in an Array [E] | 待完成 |  |  |
-| 2026-06-24 | 16 | 0075 Sort Colors [M] | 0324 Wiggle Sort II [M] | 待完成 |  |  |
-| 2026-06-25 | 17 | 0026 Remove Duplicates from Sorted Array [E] | 0015 3Sum [M] | 待完成 |  |  |
-| 2026-06-26 | 18 | 0011 Container With Most Water [M] | 0042 Trapping Rain Water [H] | 待完成 |  |  |
-| 2026-06-27 | 19 | 0003 Longest Substring Without Repeating Characters [M] | 0340 Longest Substring with At Most K Distinct Characters [M] | 待完成 |  |  |
-| 2026-06-28 | 20 | 0438 Find All Anagrams in a String [M] | 0567 Permutation in String [M] | 待完成 |  |  |
-| 2026-06-29 | 21 | 0076 Minimum Window Substring [H] | 0076 Minimum Window Substring [R2][H] | 待完成 |  |  |
-| 2026-06-30 | 22 | 0424 Longest Repeating Character Replacement [M] | 1004 Max Consecutive Ones III [M] | 待完成 |  |  |
-| 2026-07-01 | 23 | 0005 Longest Palindromic Substring [M] | 0647 Palindromic Substrings [M] | 待完成 |  |  |
-| 2026-07-02 | 24 | 0394 Decode String [M] | 0227 Basic Calculator II [M] | 待完成 |  |  |
-| 2026-07-03 | 25 | 0028 Find the Index of the First Occurrence in a String [E] | 0214 Shortest Palindrome [H] | 待完成 |  |  |
-| 2026-07-04 | 26 | 0010 Regular Expression Matching [H] | 0044 Wildcard Matching [H] | 待完成 |  |  |
-| 2026-07-05 | 27 | 0020 Valid Parentheses [E] | 0155 Min Stack [M] | 待完成 |  |  |
-| 2026-07-06 | 28 | 0739 Daily Temperatures [M] | 0503 Next Greater Element II [M] | 待完成 |  |  |
-| 2026-07-07 | 29 | 0084 Largest Rectangle in Histogram [H] | 0085 Maximal Rectangle [H] | 待完成 |  |  |
-| 2026-07-08 | 30 | 0239 Sliding Window Maximum [H] | 0862 Shortest Subarray with Sum at Least K [H] | 待完成 |  |  |
-| 2026-07-09 | 31 | 0735 Asteroid Collision [M] | 0402 Remove K Digits [M] | 待完成 |  |  |
-| 2026-07-10 | 32 | 0224 Basic Calculator [H] | 0772 Basic Calculator III [H] | 待完成 |  |  |
-| 2026-07-11 | 33 | 0295 Find Median from Data Stream [H] | 0480 Sliding Window Median [H] | 待完成 |  |  |
-| 2026-07-12 | 34 | 0704 Binary Search [E] | 0034 Find First and Last Position of Element in Sorted Array [M] | 待完成 |  |  |
-| 2026-07-13 | 35 | 0033 Search in Rotated Sorted Array [M] | 0154 Find Minimum in Rotated Sorted Array II [H] | 待完成 |  |  |
-| 2026-07-14 | 36 | 0875 Koko Eating Bananas [M] | 1011 Capacity To Ship Packages Within D Days [M] | 待完成 |  |  |
-| 2026-07-15 | 37 | 0074 Search a 2D Matrix [M] | 0240 Search a 2D Matrix II [M] | 待完成 |  |  |
-| 2026-07-16 | 38 | 0410 Split Array Largest Sum [H] | 0719 Find K-th Smallest Pair Distance [H] | 待完成 |  |  |
-| 2026-07-17 | 39 | 0378 Kth Smallest Element in a Sorted Matrix [M] | 0668 Kth Smallest Number in Multiplication Table [H] | 待完成 |  |  |
-| 2026-07-18 | 40 | 1482 Minimum Number of Days to Make m Bouquets [M] | 1552 Magnetic Force Between Two Balls [M] | 待完成 |  |  |
-| 2026-07-19 | 41 | 0094 Binary Tree Inorder Traversal [E] | 0102 Binary Tree Level Order Traversal [M] | 待完成 |  |  |
-| 2026-07-20 | 42 | 0104 Maximum Depth of Binary Tree [E] | 0543 Diameter of Binary Tree [E] | 待完成 |  |  |
-| 2026-07-21 | 43 | 0112 Path Sum [E] | 0437 Path Sum III [M] | 待完成 |  |  |
-| 2026-07-22 | 44 | 0105 Construct Binary Tree from Preorder and Inorder Traversal [M] | 0106 Construct Binary Tree from Inorder and Postorder Traversal [M] | 待完成 |  |  |
-| 2026-07-23 | 45 | 0236 Lowest Common Ancestor of a Binary Tree [M] | 1644 Lowest Common Ancestor of a Binary Tree II [M] | 待完成 |  |  |
-| 2026-07-24 | 46 | 0098 Validate Binary Search Tree [M] | 0230 Kth Smallest Element in a BST [M] | 待完成 |  |  |
-| 2026-07-25 | 47 | 0337 House Robber III [M] | 0968 Binary Tree Cameras [H] | 待完成 |  |  |
-| 2026-07-26 | 48 | 0297 Serialize and Deserialize Binary Tree [H] | 0449 Serialize and Deserialize BST [M] | 待完成 |  |  |
-| 2026-07-27 | 49 | 0208 Implement Trie (Prefix Tree) [M] | 0211 Design Add and Search Words Data Structure [M] | 待完成 |  |  |
-| 2026-07-28 | 50 | 0215 Kth Largest Element in an Array [M] | 0347 Top K Frequent Elements [R2][M] | 待完成 |  |  |
-| 2026-07-29 | 51 | 0023 Merge k Sorted Lists [R2][H] | 0373 Find K Pairs with Smallest Sums [M] | 待完成 |  |  |
-| 2026-07-30 | 52 | 0056 Merge Intervals [M] | 0057 Insert Interval [M] | 待完成 |  |  |
-| 2026-07-31 | 53 | 0253 Meeting Rooms II [M] | 0732 My Calendar III [H] | 待完成 |  |  |
-| 2026-08-01 | 54 | 0055 Jump Game [M] | 0045 Jump Game II [M] | 待完成 |  |  |
-| 2026-08-02 | 55 | 0435 Non-overlapping Intervals [M] | 0452 Minimum Number of Arrows to Burst Balloons [M] | 待完成 |  |  |
-| 2026-08-03 | 56 | 0135 Candy [H] | 0871 Minimum Number of Refueling Stops [H] | 待完成 |  |  |
-| 2026-08-04 | 57 | 0078 Subsets [M] | 0090 Subsets II [M] | 待完成 |  |  |
-| 2026-08-05 | 58 | 0039 Combination Sum [M] | 0040 Combination Sum II [M] | 待完成 |  |  |
-| 2026-08-06 | 59 | 0046 Permutations [M] | 0047 Permutations II [M] | 待完成 |  |  |
-| 2026-08-07 | 60 | 0131 Palindrome Partitioning [M] | 0093 Restore IP Addresses [M] | 待完成 |  |  |
-| 2026-08-08 | 61 | 0051 N-Queens [H] | 0052 N-Queens II [H] | 待完成 |  |  |
-| 2026-08-09 | 62 | 0079 Word Search [M] | 0212 Word Search II [H] | 待完成 |  |  |
-| 2026-08-10 | 63 | 0200 Number of Islands [M] | 0695 Max Area of Island [M] | 待完成 |  |  |
-| 2026-08-11 | 64 | 0994 Rotting Oranges [M] | 0542 01 Matrix [M] | 待完成 |  |  |
-| 2026-08-12 | 65 | 0207 Course Schedule [M] | 0210 Course Schedule II [M] | 待完成 |  |  |
-| 2026-08-13 | 66 | 0802 Find Eventual Safe States [M] | 0269 Alien Dictionary [H] | 待完成 |  |  |
-| 2026-08-14 | 67 | 0547 Number of Provinces [M] | 0684 Redundant Connection [M] | 待完成 |  |  |
-| 2026-08-15 | 68 | 0399 Evaluate Division [M] | 0305 Number of Islands II [H] | 待完成 |  |  |
-| 2026-08-16 | 69 | 0743 Network Delay Time [M] | 1514 Path with Maximum Probability [M] | 待完成 |  |  |
-| 2026-08-17 | 70 | 1091 Shortest Path in Binary Matrix [M] | 1631 Path With Minimum Effort [M] | 待完成 |  |  |
-| 2026-08-18 | 71 | 1584 Min Cost to Connect All Points [M] | 0787 Cheapest Flights Within K Stops [M] | 待完成 |  |  |
-| 2026-08-19 | 72 | 0070 Climbing Stairs [E] | 0198 House Robber [M] | 待完成 |  |  |
-| 2026-08-20 | 73 | 0213 House Robber II [M] | 0152 Maximum Product Subarray [M] | 待完成 |  |  |
-| 2026-08-21 | 74 | 0121 Best Time to Buy and Sell Stock [E] | 0309 Best Time to Buy and Sell Stock with Cooldown [M] | 待完成 |  |  |
-| 2026-08-22 | 75 | 0062 Unique Paths [M] | 0064 Minimum Path Sum [M] | 待完成 |  |  |
-| 2026-08-23 | 76 | 0416 Partition Equal Subset Sum [M] | 0494 Target Sum [M] | 待完成 |  |  |
-| 2026-08-24 | 77 | 0322 Coin Change [M] | 0518 Coin Change II [M] | 待完成 |  |  |
-| 2026-08-25 | 78 | 0300 Longest Increasing Subsequence [M] | 0673 Number of Longest Increasing Subsequence [M] | 待完成 |  |  |
-| 2026-08-26 | 79 | 1143 Longest Common Subsequence [M] | 0072 Edit Distance [H] | 待完成 |  |  |
-| 2026-08-27 | 80 | 0516 Longest Palindromic Subsequence [M] | 0132 Palindrome Partitioning II [H] | 待完成 |  |  |
-| 2026-08-28 | 81 | 0312 Burst Balloons [H] | 1039 Minimum Score Triangulation of Polygon [M] | 待完成 |  |  |
-| 2026-08-29 | 82 | 0691 Stickers to Spell Word [H] | 0847 Shortest Path Visiting All Nodes [H] | 待完成 |  |  |
-| 2026-08-30 | 83 | 0380 Insert Delete GetRandom O(1) [M] | 0381 Insert Delete GetRandom O(1) - Duplicates allowed [H] | 待完成 |  |  |
-| 2026-08-31 | 84 | 0432 All O`one Data Structure [H] | 1206 Design Skiplist [H] | 待完成 |  |  |
-| 2026-09-01 | 85 | 0421 Maximum XOR of Two Numbers in an Array [M] | 1707 Maximum XOR With an Element From Array [H] | 待完成 |  |  |
-| 2026-09-02 | 86 | 0136 Single Number [E] | 0201 Bitwise AND of Numbers Range [M] | 待完成 |  |  |
-| 2026-09-03 | 87 | 0307 Range Sum Query - Mutable [M] | 0315 Count of Smaller Numbers After Self [H] | 待完成 |  |  |
-| 2026-09-04 | 88 | 0850 Rectangle Area II [H] | 0218 The Skyline Problem [H] | 待完成 |  |  |
-| 2026-09-05 | 89 | 0721 Accounts Merge [M] | 0635 Design Log Storage System [M] | 待完成 |  |  |
-| 2026-09-06 | 90 | 0289 Game of Life [M] | 0068 Text Justification [H] | 待完成 |  |  |
+| 2026-06-09 | 1 | 链表：数字加法 | 0002 两数相加 [M][Done] | 0445 两数相加 II [M][Done] | 已完成 | 链表加法先判断数字存储方向；carry 模板统一 2/445。 |
+| 2026-06-10 | 2 | 链表：删除与合并 | 0019 删除链表的倒数第 N 个结点 [M][Done] | 0021 合并两个有序链表 [E][Done] | 已完成 | dummy 处理头节点；fast/slow 找前驱；合并链表主循环和收尾拆分。 |
+| 2026-06-11 | 3 | 链表：反转基础到区间 | 0206 反转链表 [E] | 0092 反转链表 II [M] | 已完成 | 递归反转注意断尾；局部反转可抽象为反转半开区间 [start,end)，end 思维能迁移到 K 组反转。 |
+| 2026-06-12 | 4 | 链表：环检测 | 0141 环形链表 [E] | 0142 环形链表 II [M] | 已完成 | 10:35 开始，10:55 结束，用时 20 分钟；快慢指针判断环，相遇后用 a/b/c 距离关系定位入口。 |
+| 2026-06-13 | 5 | 链表：相交与随机指针 | 0160 相交链表 [E] | 0138 随机链表的复制 [M] | 已完成 | 10:26 开始；160 用虚拟路径 A+B/B+A，138 用 old->new 唯一映射和图拷贝思维。 |
+| 2026-06-14 | 6 | 链表：回文与重排 | 0234 回文链表 [E] | 0143 重排链表 [M] | 已完成 | 234/143 共用找中点、断链、反转后半段；234 做比较，143 做交错合并。代码记录 10:50-11:06。 |
+| 2026-06-15 | 7 | 链表：Hard 反转 | 0025 K 个一组翻转链表 [H] | 0061 旋转链表 [M] | 已完成 | 实刷 2026-06-14；61 关注 len-k 新尾，25 复用 92 头插反转；调试点是每组开始要重置 cur=newHead.next。 |
+| 2026-06-16 | 8 | 链表：多路归并 | 0023 合并 K 个升序链表 [H] | 0148 排序链表 [M] | 待完成 |  |
+| 2026-06-17 | 9 | 链表：缓存设计 | 0146 LRU 缓存 [M] | 0460 LFU 缓存 [H] | 待完成 |  |
+| 2026-06-18 | 10 | 链表：设计与多级链表 | 0707 设计链表 [M] | 0430 扁平化多级双向链表 [M] | 待完成 |  |
+| 2026-06-19 | 11 | 数组哈希：索引与频次 | 0001 两数之和 [E] | 0049 字母异位词分组 [M] | 待完成 |  |
+| 2026-06-20 | 12 | 数组哈希：TopK | 0347 前 K 个高频元素 [M] | 0692 前 K 个高频单词 [M] | 待完成 |  |
+| 2026-06-21 | 13 | 前缀和：子数组计数 | 0560 和为 K 的子数组 [M] | 0523 连续的子数组和 [M] | 待完成 |  |
+| 2026-06-22 | 14 | 前缀和：二维与差分 | 0304 二维区域和检索 - 矩阵不可变 [M] | 1109 航班预订统计 [M] | 待完成 |  |
+| 2026-06-23 | 15 | 数组：原地标记 | 0041 缺失的第一个正数 [H] | 0448 找到所有数组中消失的数字 [E] | 待完成 |  |
+| 2026-06-24 | 16 | 数组：三路划分 | 0075 颜色分类 [M] | 0324 摆动排序 II [M] | 待完成 |  |
+| 2026-06-25 | 17 | 双指针：去重与三数 | 0026 删除有序数组中的重复项 [E] | 0015 三数之和 [M] | 待完成 |  |
+| 2026-06-26 | 18 | 双指针：容器与雨水 | 0011 盛最多水的容器 [M] | 0042 接雨水 [H] | 待完成 |  |
+| 2026-06-27 | 19 | 滑动窗口：无重复 | 0003 无重复字符的最长子串 [M] | 0340 至多包含 K 个不同字符的最长子串 [M] | 待完成 |  |
+| 2026-06-28 | 20 | 滑动窗口：字符频次 | 0438 找到字符串中所有字母异位词 [M] | 0567 字符串的排列 [M] | 待完成 |  |
+| 2026-06-29 | 21 | 滑动窗口：最小覆盖 | 0076 最小覆盖子串 [H] | 0076 最小覆盖子串 [R2][H] | 待完成 |  |
+| 2026-06-30 | 22 | 滑动窗口：预算模型 | 0424 替换后的最长重复字符 [M] | 1004 最大连续 1 的个数 III [M] | 待完成 |  |
+| 2026-07-01 | 23 | 字符串：回文 | 0005 最长回文子串 [M] | 0647 回文子串 [M] | 待完成 |  |
+| 2026-07-02 | 24 | 字符串：栈解析 | 0394 字符串解码 [M] | 0227 基本计算器 II [M] | 待完成 |  |
+| 2026-07-03 | 25 | 字符串：匹配算法 | 0028 找出字符串中第一个匹配项的下标 [E] | 0214 最短回文串 [H] | 待完成 |  |
+| 2026-07-04 | 26 | 字符串：Hard 匹配 | 0010 正则表达式匹配 [H] | 0044 通配符匹配 [H] | 待完成 |  |
+| 2026-07-05 | 27 | 栈：基础设计 | 0020 有效的括号 [E] | 0155 最小栈 [M] | 待完成 |  |
+| 2026-07-06 | 28 | 单调栈：下一个更大 | 0739 每日温度 [M] | 0503 下一个更大元素 II [M] | 待完成 |  |
+| 2026-07-07 | 29 | 单调栈：柱状图 | 0084 柱状图中最大的矩形 [H] | 0085 最大矩形 [H] | 待完成 |  |
+| 2026-07-08 | 30 | 单调队列：窗口最大值 | 0239 滑动窗口最大值 [H] | 0862 和至少为 K 的最短子数组 [H] | 待完成 |  |
+| 2026-07-09 | 31 | 栈：局部最优模拟 | 0735 行星碰撞 [M] | 0402 移掉 K 位数字 [M] | 待完成 |  |
+| 2026-07-10 | 32 | 栈：表达式进阶 | 0224 基本计算器 [H] | 0772 基本计算器 III [H] | 待完成 |  |
+| 2026-07-11 | 33 | 栈队列：双堆 | 0295 数据流的中位数 [H] | 0480 滑动窗口中位数 [H] | 待完成 |  |
+| 2026-07-12 | 34 | 二分：边界 | 0704 二分查找 [E] | 0034 在排序数组中查找元素的第一个和最后一个位置 [M] | 待完成 |  |
+| 2026-07-13 | 35 | 二分：旋转数组 | 0033 搜索旋转排序数组 [M] | 0154 寻找旋转排序数组中的最小值 II [H] | 待完成 |  |
+| 2026-07-14 | 36 | 二分：答案二分 | 0875 爱吃香蕉的珂珂 [M] | 1011 在 D 天内送达包裹的能力 [M] | 待完成 |  |
+| 2026-07-15 | 37 | 二分：矩阵 | 0074 搜索二维矩阵 [M] | 0240 搜索二维矩阵 II [M] | 待完成 |  |
+| 2026-07-16 | 38 | 二分：分割最大值 | 0410 分割数组的最大值 [H] | 0719 找出第 K 小的数对距离 [H] | 待完成 |  |
+| 2026-07-17 | 39 | 二分：有序矩阵计数 | 0378 有序矩阵中第 K 小的元素 [M] | 0668 乘法表中第 K 小的数 [H] | 待完成 |  |
+| 2026-07-18 | 40 | 二分：贪心检查 | 1482 制作 m 束花所需的最少天数 [M] | 1552 两球之间的磁力 [M] | 待完成 |  |
+| 2026-07-19 | 41 | 二叉树：遍历 | 0094 二叉树的中序遍历 [E] | 0102 二叉树的层序遍历 [M] | 待完成 |  |
+| 2026-07-20 | 42 | 二叉树：后序信息 | 0104 二叉树的最大深度 [E] | 0543 二叉树的直径 [E] | 待完成 |  |
+| 2026-07-21 | 43 | 二叉树：路径和 | 0112 路径总和 [E] | 0437 路径总和 III [M] | 待完成 |  |
+| 2026-07-22 | 44 | 二叉树：构造 | 0105 从前序与中序遍历序列构造二叉树 [M] | 0106 从中序与后序遍历序列构造二叉树 [M] | 待完成 |  |
+| 2026-07-23 | 45 | 二叉树：LCA | 0236 二叉树的最近公共祖先 [M] | 1644 二叉树的最近公共祖先 II [M] | 待完成 |  |
+| 2026-07-24 | 46 | BST：性质 | 0098 验证二叉搜索树 [M] | 0230 二叉搜索树中第 K 小的元素 [M] | 待完成 |  |
+| 2026-07-25 | 47 | 树形 DP | 0337 打家劫舍 III [M] | 0968 监控二叉树 [H] | 待完成 |  |
+| 2026-07-26 | 48 | 序列化 | 0297 二叉树的序列化与反序列化 [H] | 0449 序列化和反序列化二叉搜索树 [M] | 待完成 |  |
+| 2026-07-27 | 49 | Trie 基础 | 0208 实现 Trie [M] | 0211 添加与搜索单词 [M] | 待完成 |  |
+| 2026-07-28 | 50 | 堆：TopK/快选 | 0215 数组中的第 K 个最大元素 [M] | 0347 前 K 个高频元素 [R2][M] | 待完成 |  |
+| 2026-07-29 | 51 | 堆：多路归并 | 0023 合并 K 个升序链表 [R2][H] | 0373 查找和最小的 K 对数字 [M] | 待完成 |  |
+| 2026-07-30 | 52 | 区间：合并 | 0056 合并区间 [M] | 0057 插入区间 [M] | 待完成 |  |
+| 2026-07-31 | 53 | 区间：会议室 | 0253 会议室 II [M] | 0732 我的日程安排表 III [H] | 待完成 |  |
+| 2026-08-01 | 54 | 贪心：跳跃 | 0055 跳跃游戏 [M] | 0045 跳跃游戏 II [M] | 待完成 |  |
+| 2026-08-02 | 55 | 贪心：区间调度 | 0435 无重叠区间 [M] | 0452 用最少数量的箭引爆气球 [M] | 待完成 |  |
+| 2026-08-03 | 56 | 贪心：Hard | 0135 分发糖果 [H] | 0871 最低加油次数 [H] | 待完成 |  |
+| 2026-08-04 | 57 | 回溯：子集组合 | 0078 子集 [M] | 0090 子集 II [M] | 待完成 |  |
+| 2026-08-05 | 58 | 回溯：组合求和 | 0039 组合总和 [M] | 0040 组合总和 II [M] | 待完成 |  |
+| 2026-08-06 | 59 | 回溯：排列 | 0046 全排列 [M] | 0047 全排列 II [M] | 待完成 |  |
+| 2026-08-07 | 60 | 回溯：切割 | 0131 分割回文串 [M] | 0093 复原 IP 地址 [M] | 待完成 |  |
+| 2026-08-08 | 61 | 回溯：棋盘 | 0051 N 皇后 [H] | 0052 N 皇后 II [H] | 待完成 |  |
+| 2026-08-09 | 62 | 回溯：网格 | 0079 单词搜索 [M] | 0212 单词搜索 II [H] | 待完成 |  |
+| 2026-08-10 | 63 | 图：岛屿 | 0200 岛屿数量 [M] | 0695 岛屿的最大面积 [M] | 待完成 |  |
+| 2026-08-11 | 64 | 图：多源 BFS | 0994 腐烂的橘子 [M] | 0542 01 矩阵 [M] | 待完成 |  |
+| 2026-08-12 | 65 | 图：拓扑 | 0207 课程表 [M] | 0210 课程表 II [M] | 待完成 |  |
+| 2026-08-13 | 66 | 图：拓扑进阶 | 0802 找到最终的安全状态 [M] | 0269 火星词典 [H] | 待完成 |  |
+| 2026-08-14 | 67 | 并查集：基础 | 0547 省份数量 [M] | 0684 冗余连接 [M] | 待完成 |  |
+| 2026-08-15 | 68 | 并查集：进阶 | 0399 除法求值 [M] | 0305 岛屿数量 II [H] | 待完成 |  |
+| 2026-08-16 | 69 | 最短路：Dijkstra | 0743 网络延迟时间 [M] | 1514 概率最大的路径 [M] | 待完成 |  |
+| 2026-08-17 | 70 | 最短路：网格 | 1091 二进制矩阵中的最短路径 [M] | 1631 最小体力消耗路径 [M] | 待完成 |  |
+| 2026-08-18 | 71 | 图：最小生成树 | 1584 连接所有点的最小费用 [M] | 0787 K 站中转内最便宜的航班 [M] | 待完成 |  |
+| 2026-08-19 | 72 | DP：线性基础 | 0070 爬楼梯 [E] | 0198 打家劫舍 [M] | 待完成 |  |
+| 2026-08-20 | 73 | DP：环形与乘积 | 0213 打家劫舍 II [M] | 0152 乘积最大子数组 [M] | 待完成 |  |
+| 2026-08-21 | 74 | DP：股票状态机 | 0121 买卖股票的最佳时机 [E] | 0309 买卖股票的最佳时机含冷冻期 [M] | 待完成 |  |
+| 2026-08-22 | 75 | DP：网格 | 0062 不同路径 [M] | 0064 最小路径和 [M] | 待完成 |  |
+| 2026-08-23 | 76 | DP：背包 01 | 0416 分割等和子集 [M] | 0494 目标和 [M] | 待完成 |  |
+| 2026-08-24 | 77 | DP：完全背包 | 0322 零钱兑换 [M] | 0518 零钱兑换 II [M] | 待完成 |  |
+| 2026-08-25 | 78 | DP：LIS | 0300 最长递增子序列 [M] | 0673 最长递增子序列的个数 [M] | 待完成 |  |
+| 2026-08-26 | 79 | DP：双序列 | 1143 最长公共子序列 [M] | 0072 编辑距离 [H] | 待完成 |  |
+| 2026-08-27 | 80 | DP：回文 | 0516 最长回文子序列 [M] | 0132 分割回文串 II [H] | 待完成 |  |
+| 2026-08-28 | 81 | DP：区间 | 0312 戳气球 [H] | 1039 多边形三角剖分的最低得分 [M] | 待完成 |  |
+| 2026-08-29 | 82 | DP：状态压缩 | 0691 贴纸拼词 [H] | 0847 访问所有节点的最短路径 [H] | 待完成 |  |
+| 2026-08-30 | 83 | 设计：随机结构 | 0380 O(1) 时间插入、删除和获取随机元素 [M] | 0381 O(1) 时间插入、删除和获取随机元素 - 允许重复 [H] | 待完成 |  |
+| 2026-08-31 | 84 | 设计：AllOne/Skiplist | 0432 全 O(1) 的数据结构 [H] | 1206 设计跳表 [H] | 待完成 |  |
+| 2026-09-01 | 85 | Trie/位运算：异或 | 0421 数组中两个数的最大异或值 [M] | 1707 与数组中元素的最大异或值 [H] | 待完成 |  |
+| 2026-09-02 | 86 | 位运算：基础到区间 | 0136 只出现一次的数字 [E] | 0201 数字范围按位与 [M] | 待完成 |  |
+| 2026-09-03 | 87 | 线段树/BIT | 0307 区域和检索 - 数组可修改 [M] | 0315 计算右侧小于当前元素的个数 [H] | 待完成 |  |
+| 2026-09-04 | 88 | 扫描线 | 0850 矩形面积 II [H] | 0218 天际线问题 [H] | 待完成 |  |
+| 2026-09-05 | 89 | 系统设计味算法 | 0721 账户合并 [M] | 0635 设计日志存储系统 [M] | 待完成 |  |
+| 2026-09-06 | 90 | 收官模拟 | 0289 生命游戏 [M] | 0068 文本左右对齐 [H] | 待完成 |  |
