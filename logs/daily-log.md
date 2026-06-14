@@ -10,7 +10,7 @@
 | 2026-06-12 | 4 | 0141 Linked List Cycle [E] | 0142 Linked List Cycle II [M] | 已完成 |  | 10:35 开始，10:55 结束，用时 20 分钟；快慢指针判断环，相遇后用 a/b/c 距离关系定位入口。 |
 | 2026-06-13 | 5 | 0160 Intersection of Two Linked Lists [E] | 0138 Copy List with Random Pointer [M] | 已完成 |  | 10:26 开始；160 用虚拟路径 A+B/B+A，138 用 old->new 唯一映射和图拷贝思维。 |
 | 2026-06-14 | 6 | 0234 Palindrome Linked List [E] | 0143 Reorder List [M] | 已完成 |  | 234/143 共用找中点、断链、反转后半段；234 做比较，143 做交错合并。代码记录 10:50-11:06。 |
-| 2026-06-15 | 7 | 0025 Reverse Nodes in k-Group [H] | 0061 Rotate List [M] | 待完成 |  |  |
+| 2026-06-15 | 7 | 0025 Reverse Nodes in k-Group [H] | 0061 Rotate List [M] | 已完成 |  | 实刷 2026-06-14；61 关注 len-k 新尾，25 复用 92 头插反转；调试点是每组开始要重置 cur=newHead.next。 |
 | 2026-06-16 | 8 | 0023 Merge k Sorted Lists [H] | 0148 Sort List [M] | 待完成 |  |  |
 | 2026-06-17 | 9 | 0146 LRU Cache [M] | 0460 LFU Cache [H] | 待完成 |  |  |
 | 2026-06-18 | 10 | 0707 Design Linked List [M] | 0430 Flatten a Multilevel Doubly Linked List [M] | 待完成 |  |  |
