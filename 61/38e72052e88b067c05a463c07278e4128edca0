@@ -1,0 +1,174 @@
+solutions/array-hash-prefix/1109.corporate-flight-bookings.java
+  s_7f5c0476be27e7::t_e4ccf333ae569f 1-34 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a393b23f6b81f7685329bcf","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Range":[1,34]}]}]}
+doc/数组哈希刷题笔记.md
+  s_7f5c0476be27e7::t_d1671e0b29910a 158-209 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a393b39f6b81f7685329c06","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Range":[158,209]}]}]}
+solutions/array-hash-prefix/0304.range-sum-query-2d-immutable.java
+  s_7f5c0476be27e7::t_14f64c579c670a 1-40 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a393b11f6b81f7685329bab","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Range":[1,40]}]}]}
+logs/daily-log.md
+  s_7f5c0476be27e7::t_5c9f390dbb2559 20 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a393b2ff6b81f7685329bf0","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Single":20}]}]}
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "6138e72052e88b067c05a463c07278e4128edca0",
+  "prompts": {},
+  "sessions": {
+    "s_7f5c0476be27e7": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a28e425430369882c13f0fa",
+        "model": "gpt-5.5__max"
+      },
+      "human_author": "Tartar <xiaoyx67@mail2.sysu.edu.cn>"
+    }
+  },
+  "attestation_metadata": {
+    "doc/数组哈希刷题笔记.md": [
+      {
+        "hash": "s_7f5c0476be27e7::t_d1671e0b29910a",
+        "line_ranges": [
+          {
+            "Range": [
+              158,
+              209
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a393b39f6b81f7685329c06",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Range": [
+                  158,
+                  209
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "logs/daily-log.md": [
+      {
+        "hash": "s_7f5c0476be27e7::t_5c9f390dbb2559",
+        "line_ranges": [
+          {
+            "Single": 20
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a393b2ff6b81f7685329bf0",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Single": 20
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "solutions/array-hash-prefix/0304.range-sum-query-2d-immutable.java": [
+      {
+        "hash": "s_7f5c0476be27e7::t_14f64c579c670a",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              40
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a393b11f6b81f7685329bab",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  40
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "solutions/array-hash-prefix/1109.corporate-flight-bookings.java": [
+      {
+        "hash": "s_7f5c0476be27e7::t_e4ccf333ae569f",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              34
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a393b23f6b81f7685329bcf",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  34
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "remote_transcripts": {
+    "s_7f5c0476be27e7": {
+      "tool": "trae",
+      "conversation_id": "6a28e425430369882c13f0fa",
+      "session_id": "6a28e425430369882c13f0fa",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_7f5c0476be27e7::t_14f64c579c670a": {
+      "tool": "trae",
+      "conversation_id": "6a28e425430369882c13f0fa",
+      "session_id": "6a28e425430369882c13f0fa",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_7f5c0476be27e7::t_5c9f390dbb2559": {
+      "tool": "trae",
+      "conversation_id": "6a28e425430369882c13f0fa",
+      "session_id": "6a28e425430369882c13f0fa",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_7f5c0476be27e7::t_d1671e0b29910a": {
+      "tool": "trae",
+      "conversation_id": "6a28e425430369882c13f0fa",
+      "session_id": "6a28e425430369882c13f0fa",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_7f5c0476be27e7::t_e4ccf333ae569f": {
+      "tool": "trae",
+      "conversation_id": "6a28e425430369882c13f0fa",
+      "session_id": "6a28e425430369882c13f0fa",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    }
+  }
+}
